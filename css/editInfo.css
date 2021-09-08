@@ -1,0 +1,49 @@
+.container{
+
+			margin: auto;
+			width: 95%;
+			overflow: hidden;
+			
+			padding: 0;
+
+	}
+.right{
+	float: right;
+	color: blue;
+	text-decoration: underline;
+	border: none;
+	background: none;
+
+
+}
+.rightDel{
+	float: right;
+	width: 61px;
+    color: #fff;
+    border-radius: 10px;
+   	padding: 10px;
+    text-align: center;
+    background-color: rgb(255,140,0);
+    cursor: pointer;
+	margin: 0px 10px; 
+	
+}
+.left{
+	float: left;
+	width: 30%;	
+	font-weight: bold;
+}
+.save{
+	 width: 61px;
+    color: #fff;
+    border-radius: 10px;
+   	padding: 10px;
+    text-align: center;
+    border-style: none;
+    background-color: rgb(255,140,0);
+    cursor: pointer;
+	margin: 0px 10px; }
+.mid{
+		font-weight: bold;
+		color: #BBB;
+	}

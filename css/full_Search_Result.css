@@ -1,0 +1,74 @@
+	.left_Section{
+		margin-top: 0px;
+	}
+	.left_Section .myProfile{
+		border-radius: 20px
+	}
+	
+	.Btn_Ad_or_del_frinds{
+			outline: none;
+			color: #fff;
+			background-color: rgb(255,140,0);
+			padding: 10px 18px;
+			border: none;
+			width: 100%;
+			font-size: 20px;
+			border-radius: 10PX;
+		}
+	
+.left_Section .information{
+	min-height:150px; 
+	background-color: white;
+    height: 100%;
+    box-shadow: 0 3px 7px 0 rgba(0,0,0,0.16), 0 3px 12px 0 rgba(0,0,0,0.12);
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.left_Section .information h4{
+		padding: 20px;
+		background-color:#7D97A5;
+		color: white; 
+		border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+}
+
+.left_Section .information p{
+    padding: 5px;
+}
+
+
+
+.ViewAction{
+	position: relative;
+
+}
+.Action {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f1f1f1;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.Action button{
+	display: block;
+	    background-color: #f1f1f1;
+	 margin: 10px 0;
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.dropdown-content button:hover {background-color: #ddd}
+
+.ViewAction:hover .Action {
+    display: block;
+}

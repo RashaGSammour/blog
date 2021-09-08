@@ -1,0 +1,348 @@
+
+html{padding-bottom: 100px;}
+
+ body{
+  background-color: #f5f7f8  ;
+}
+
+.left_Section{
+  float: left;
+  width: 30%;
+  background-color: none; 
+  padding: 0;
+  margin-top: -16px;
+
+}
+.left_Section .information,.myProfile{
+  background-color: white;
+  margin-top: 0;
+  height: 100%;
+  box-shadow: 0 3px 7px 0 rgba(0,0,0,0.16), 0 3px 12px 0 rgba(0,0,0,0.12);
+  text-align: left;
+  border-radius: 5px;
+}
+#info,.left_Section .information {
+    min-height:150px; 
+    
+    background-color: white;
+    height: 100%;
+    box-shadow: 0 3px 7px 0 rgba(0,0,0,0.16),
+               0 3px 12px 0 rgba(0,0,0,0.12);
+    margin-top: 20px;
+    border-radius: 20px;
+        padding-bottom: 15px;
+
+}
+
+.information h4{
+    position: relative;
+    padding: 20px 20px 20px 60px;
+    background-color:#7D97A5; 
+    color: white;
+    text-align: center; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.information h4 .dropdown{
+  padding: 0 5px ;
+}
+.information .infoContent{overflow: hidden;   padding: 5PX 0 5PX 16PX;;     border-bottom: 1px solid #BBB;
+} 
+.information i{
+  margin-left: 10px;
+}
+.information span{
+    color: dimgrey;
+
+  
+}
+
+.information p{
+  display: inline-block;
+  color: lightslategrey;
+    font-size: 16PX;
+    font-family: -webkit-pictograph;
+    padding: 0;
+    margin: 4px  0 0 ;
+    
+
+}
+.rightDiv{
+
+  float: right;
+    width: 68%;
+  height: 100%;
+   }
+
+.title{
+  padding-top: 20px;
+  font-size: 20px;
+  margin: 15px 0px;
+  text-align: center;
+}
+.img{ 
+      position: relative;
+      height: 121px;
+      width: 120px;
+      margin-left: 105px;}
+
+
+
+.img img{
+ border-radius: 50%;
+  height: 120px;
+
+}
+
+hr{
+  border: 0;
+    border-top: 1px solid #eee;
+    margin-top: 30px;
+}
+.infHr{
+    border-top: 1px solid #BBB;
+
+}
+
+
+.myProfile  p{
+  padding-left: 20px;
+}
+
+.post-container{
+   background-color: white;
+
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 3px 7px 0 rgba(0,0,0,0.16), 0 3px 12px 0 rgba(0,0,0,0.12);
+  min-height: 170px;
+  padding: 10px 18px;
+
+}
+.post-container textarea{
+  margin-top: 3px;
+  border-color:#d5d3d3;
+  border-radius: 5px;
+  width: 95%;
+  min-height:100px;
+  padding: 10px 10px;
+  resize: none;
+}
+.post-container button{
+      color: #fff;
+      background-color: rgb(255,140,0);
+      padding: 10px 18px;
+      border: none;
+      margin: 8px 0px;
+      margin-right:17px;
+      outline: none;
+      border-radius: 100px;
+      float: right;
+      }
+      .All_Post{background-color: none; margin-bottom: 30PX}
+.All_Post .post{
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  width: 100%;
+  box-shadow: 0 3px 7px 0 rgba(0,0,0,0.16),
+   0 3px 12px 0 rgba(0,0,0,0.12);
+  min-height: 200PX;
+}      
+.post .header .img {
+  float:left;
+  margin-left: 10px;
+  height: 100%;
+  width: 50px;
+}
+
+.post .header .img img{
+  border-radius:50%;
+  height:40px ;
+  width:50px;
+
+
+}
+
+.post .header{
+  border-bottom: 2px solid rgb(189,189,189);
+  height: 60px;
+  position: relative;
+}
+.post .header .name {
+  float:left;
+  margin-left: 0;
+  height: 100%;
+  margin-top: 20px;
+  font-weight: bold;
+    margin-top: 22px;
+}
+.post .header .name a {
+color: black;
+}
+.post .header .name a:hover {
+color: rgb(255,140,0);
+}
+
+.post .edit .dropbtn{
+      color: #555;
+      padding: 0px 21px 25px 39px;
+    } 
+
+.post  .edit   .dropdown-content {
+      top: 40px;
+    right: -80px;
+}  
+
+.post .body .content p{
+  padding: 20px 20px 25px 20px;
+  width: 100%;
+  min-height: 100px;
+}
+.post .edit_post {
+    display: none;
+
+  padding: 20px 20px 25px 20px;
+  width: 100%;
+  min-height: 100px;
+}
+ .post .edit_post textarea{
+    resize: none;
+  width: 100%;
+  min-height: 100px;
+}
+
+ .post .edit_post input {
+      float: right;
+      color: white;
+      border-radius:5px;
+      outline: none;
+      border:none;
+      margin-left: 10px;
+      padding: 5px 20px;
+      background-color:rgb(255,140,0);    
+      
+      } 
+
+/* start  Modify */
+  .Modify{  }
+  .Modify .Modify_Content{
+    width: 400px;
+    height: 270px;
+    background-color: white; 
+    border-radius:10px;
+      }
+  .Modify .Modify_Content .head{
+    padding-top: 1px;
+    height: 40px;
+    background-color: #7D97A5;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .Modify .Modify_Content .head h3{
+    text-align: center;
+    padding-left: 34px;
+    margin-top: 5px;
+    float: left;
+    width: 90%;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+  }
+  .Modify .Modify_Content .head a{
+    margin-top: -15px;
+    float: right;
+    font-weight: 700;
+    font-size: 25px;      }
+    .Modify .Modify_Content .head a:hover{
+        color: black;
+    }
+    .Modify .Modify_Content .content{
+      padding: 20px;
+      height: 200px;
+    }
+    .Modify .Modify_Content .content textarea{
+      width: 100%;
+      height: 100%;
+      resize: none;
+      outline: none;
+    }
+    .Modify .Modify_Content .footer{
+      height: 30px;
+
+    } 
+    .Modify .Modify_Content .footer button {
+      float: right;
+      color: white;
+      border-radius:5px;
+      outline: none;
+      border:none;
+      padding: 5px 20px;
+      background-color:rgb(255,140,0);    
+    } 
+/*end modify*/
+
+.dropdown-content #modButton{
+    color: black;
+    width: 100%;
+    padding: 12px 16px;
+    text-decoration: none;
+        background-color: #f1f1f1;
+
+    display: block;
+    border: none;
+    outline: none;
+}
+
+#modButton:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  
+  outline: none;
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  transition: .5s ease;
+  color: white;
+  font-size: 20px;
+  padding: 8px;
+  margin-left: 10px;
+  
+}
+ .img .overlay {
+  position: absolute; 
+  bottom:-7px; 
+ right: 0;
+ left: 0;
+  opacity:0;
+    color: #f1f1f1; 
+  width: 80%;
+  text-align: center;
+  border-radius: 55%;
+
+}
+.postImage{
+    width: 94px;
+    border-radius: 66px;
+    height: 39px;
+     padding: 5px 0px 0px 15px;
+    margin-top: 5px;
+    background-color: rgb(255,140,0)
+}
+.postImage::before{
+   content: 'Select Photo' !important;
+    font-weight: 700;
+  font-size: 8pt;
+  white-space: nowrap;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+ .img:hover .overlay {
+  opacity: 1;
+}
+
